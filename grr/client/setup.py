@@ -95,7 +95,7 @@ setup_args = dict(
         # since then.
         #
         # [1]: https://github.com/pyinstaller/pyinstaller/issues/3597
-        "pyinstaller==%s" % ("3.2.1" if sys.version_info < (3, 0) else "3.4"),
+        "pyinstaller==3.5",
     ],
     extras_require={
         # The following requirements are needed in Windows.
